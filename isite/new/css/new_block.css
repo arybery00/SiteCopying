@@ -1,0 +1,942 @@
+.flex-block {
+ display: flex;
+ padding:15px 0 0 0;
+ margin:0 -15px;
+}
+.flex-block.justify-content {
+  padding:0 0px 0;
+  border-bottom:1px solid #ccc;
+  margin:0 0 30px 0;
+}
+
+.old-price-header-project {
+      right: 153px;
+}
+.price__vector {
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    opacity: 1;
+    
+}
+.img_header__animus {
+  position: absolute;
+  transition: all 1s ease 0.5s;
+  bottom: 12px;
+  right: 9px;       
+}
+.block__animus:nth-child(1) .show,
+.block__animus:nth-child(1) .list__animus li.show,
+.block__animus:nth-child(1) .text-description_name__animus.show,
+.block__animus:nth-child(1) .name__animus.show,
+.block__animus:nth-child(1) .img_header__animus.show {
+  transform:scale(1) translate(0) ;
+  opacity: 1;
+  -webkit-transform:scale(1) translate(0) ;
+  -moz-transform:scale(1) translate(0) ;
+  -o-transform:scale(1) translate(0) ;
+  -ms-transform:scale(1) translate(0) ;
+}
+.block__animus:nth-child(1) .list__animus li .position_numb.show {
+  transform:scale(1);
+  opacity: 1;
+  -webkit-transform:scale(1);
+  -moz-transform:scale(1);
+  -o-transform:scale(1);
+  -ms-transform:scale(1);
+}
+.price__vector.line_vector__name__animus {
+    bottom: 0;
+    left: 0px;
+    position: absolute;
+    width: 115px;
+    right: inherit;
+    display: block;
+    overflow: hidden;
+}
+.price__vector svg path {
+  fill: none;
+  stroke: #7aaa20;
+  stroke-width:2px
+}
+.flex-block .gradient-header {
+  width:55%;
+  padding: 24px 15px 0;
+}
+.flex-block .block-promo {
+  width:45%;
+  padding: 24px 15px 0 0;
+}
+.block__animus {
+  padding:0 15px;
+  margin:30px 1% 0;
+  width: 23%;
+  opacity: 0;
+  background: #fff;
+  z-index: 5;
+  position: relative;
+  transition: all 0.5s ease 0s;  
+}
+.block__animus:nth-child(1) {
+   z-index: 5;
+}
+
+.block__animus.show {
+  opacity: 1;                      
+
+  transform:translate(0) ;
+  -webkit-transform:translate(0) ;
+  -moz-transform:translate(0) ;
+  -o-transform:translate(0) ;
+  -ms-transform:translate(0) ;
+}
+.block__animus:nth-child(2) {
+   width: 22%;
+   opacity: 0;
+ transform:scale(0);
+  -webkit-transform:scale(0);
+  -moz-transform:scale(0);
+  -o-transform:scale(0);
+  -ms-transform:scale(0);
+  transition: all 0.6s ease 2s;  
+}
+.block__animus.show:nth-child(2) {
+  opacity: 1;
+ transform:scale(1);
+  -webkit-transform:scale(1);
+  -moz-transform:scale(1);
+  -o-transform:scale(1);
+  -ms-transform:scale(1);
+}
+
+
+.block__animus:nth-child(3) {
+  transform:scale(0);
+  -webkit-transform:scale(0);
+  -moz-transform:scale(0);
+  -o-transform:scale(0);
+  -ms-transform:scale(0);
+  transition: all 0.5s ease 2.5s;  
+   width: 27%;
+}
+.block__animus.show:nth-child(3) {
+  opacity: 1;
+ transform:scale(1);
+  -webkit-transform:scale(1);
+  -moz-transform:scale(1);
+  -o-transform:scale(1);
+  -ms-transform:scale(1); 
+}
+
+
+.block__animus:nth-child(4) {
+     transform:scale(0);
+  -webkit-transform:scale(0);
+  -moz-transform:scale(0);
+  -o-transform:scale(0);
+  -ms-transform:scale(0);
+      transition: all 0.4s ease 2.8s;  
+   width: 20%;
+}
+.block__animus.show:nth-child(4) {
+  opacity: 1;
+ transform:scale(1);
+  -webkit-transform:scale(1);
+  -moz-transform:scale(1);
+  -o-transform:scale(1);
+  -ms-transform:scale(1);  
+}
+.block__animus:nth-child(5) {
+   transform:scale(0);
+  -webkit-transform:scale(0);
+  -moz-transform:scale(0);
+  -o-transform:scale(0);
+  -ms-transform:scale(0);
+      transition: all 0.4s ease 3.1s;  
+   width: 20%;
+}
+.block__animus.show:nth-child(5) {
+  opacity: 1;
+ transform:scale(1);
+  -webkit-transform:scale(1);
+  -moz-transform:scale(1);
+  -o-transform:scale(1);
+  -ms-transform:scale(1);  
+}
+
+.list__animus b {
+ display: block;
+}
+.header__animus {
+  font-family: arial, sans-serif;
+  font-weight: 900;
+  color:#000;
+  line-height: 1.2;
+  position: relative;  
+}
+.header__animus .description_name__animus {
+  font-weight: 600;
+  font-size: 15px;
+  position: relative;
+  display: flex;
+  line-height: 1.2;
+  display: flex;
+  justify-content: space-between;
+  padding:0 0 0;
+}
+.header__animus .description_name__animus::after {
+  content: "";
+  width:100%;
+  height:2px;
+  position: absolute;
+  bottom:2px;
+  display: none;
+  left:0px;
+  background:#7aaa20 ;
+}
+.name__animus {
+  font-size: 17px;
+  padding:15px 0 40px 0;
+  position: relative;
+  text-transform: uppercase;  
+}
+.list__animus {
+  font-size: 15px;
+  font-weight: 400;
+}
+.numb__animus_list {
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  display: inline-block;
+  text-align: center;
+  width: 21px;
+  height: 19px;
+  color: #7aaa20;
+  font-size: 10px;
+  font-weight: 800;
+  transition: all 1s ease 1.8s;
+}
+.text-description_name__animus{
+ transition: all 1s ease 0.3s; 
+ position: relative;
+ top:8px;
+ display: block;
+ width: 115px;
+}
+.name__animus {
+  transition: all 1s ease 0.8s; 
+
+}
+        
+
+
+.position_numb {
+   display: block;
+   position: absolute;
+   left: -25px;
+   top: -15px;  
+
+}
+.list__animus li .position_numb{
+  transition: all 0.5s ease 1.6s;  
+}
+.list__animus li:nth-child(2) .position_numb {
+  transition: all 0.5s ease 1.4s;
+}
+.list__animus li:nth-child(3) .position_numb {
+  transition: all 0.5s ease 1.2s;
+}
+.list__animus li:nth-child(4) .position_numb {
+  transition: all 0.5s ease 1s;
+}              
+
+.list__animus li {
+  position: relative;
+  display: flex;
+  margin:0 0 25px;
+  line-height: 1.4;
+  transition: all 1s ease 0.4s;
+}   
+.list__animus li:nth-child(2) {
+  transition: all 1s ease 0.6s;
+}
+.list__animus li:nth-child(3) {
+  transition: all 1s ease 0.8s;
+}
+.list__animus li:nth-child(4) {
+  transition: all 0.8s ease 1s;
+}
+
+.list__animus li svg {
+   transition: all 1s ease 0s;     
+} 
+
+@media (min-width: 991px) {
+  .block__animus:nth-child(1) .list__animus li {
+     transform:scale(0);
+    -webkit-transform:scale(0);
+    -moz-transform:scale(0);
+    -o-transform:scale(0);
+    -ms-transform:scale(0);
+  }
+  .block__animus:nth-child(1) .position_numb {
+     opacity: 0;
+     transform:scale(0);
+    -webkit-transform:scale(0);
+    -moz-transform:scale(0);
+    -o-transform:scale(0);
+    -ms-transform:scale(0);
+  }
+  .block__animus:nth-child(1) .name__animus {
+     opacity: 0;
+    transform:translate(220px);
+    -webkit-transform: translate(220px);
+    -moz-transform:translate(220px);
+    -o-transform:translate(220px);
+    -ms-transform:translate(220px);
+  }
+  .block__animus:nth-child(1) .text-description_name__animus {
+    transform:translate(-320px);
+    -webkit-transform: translate(-320px);
+    -moz-transform:translate(-320px);
+    -o-transform:translate(-320px);
+    -ms-transform:translate(-320px);
+    opacity: 0;
+  }
+  .block__animus:nth-child(1) .img_header__animus {   
+    transform:scale(0);
+    -webkit-transform:scale(0);
+    -moz-transform:scale(0);
+    -o-transform:scale(0);
+    -ms-transform:scale(0);
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+   .gradient-header {
+
+     font-size: 39px;
+   }
+   .padding15 .gradient-header {
+     margin:0px;
+   }
+   .old-price-header-project {
+    position: absolute;
+    font-size: 21px;
+    top: -12px;
+    right: 110px;
+    color: #7ea03d;
+  }
+  .flex-block.justify-content {
+    padding:0px;
+    text-align: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .gradient-header {
+    font-size: 31px;
+ }
+ .old-price-header-project {
+    position: absolute;
+    font-size: 17px;
+    top: -8px;
+    right: 80px;
+    color: #7ea03d;
+  }
+  .time-promokod {
+    font-size: 20px;
+  }
+  .flex-block {
+    padding:0px;
+  }
+  .flex-block.justify-content {
+    padding:0px;
+    flex-wrap:wrap;
+  }
+  .block__animus,
+  .block__animus:nth-child(2),
+  .block__animus:nth-child(3),
+  .block__animus:nth-child(4) {
+    width: 46%;
+    margin:10px 2%;
+    text-align: left;
+  }
+  .text-description_name__animus {
+    width: auto;
+  }
+  .price__vector.line_vector__name__animus {
+    width: auto;
+  }
+  .block__animus {
+     transition: all 1s ease 0s;  
+     opacity: 0;
+     transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+  }
+  .block__animus.show {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+  .block__animus:nth-child(2) {
+    transition: all 0.6s ease 0.3s;  
+  }
+  .block__animus:nth-child(3) { 
+    transition: all 0.5s ease 0.5s;  
+  }
+  .block__animus:nth-child(4) {
+     transition: all 0.4s ease 0.7s;  
+  }
+
+}
+@media (max-width: 767px) {
+  .gradient-header {
+    font-size: 31px;
+ }
+ .old-price-header-project {
+    position: absolute;
+    font-size: 17px;
+    top: -8px;
+    right: 80px;
+    color: #7ea03d;
+  }
+  .time-promokod {
+    font-size: 20px;
+  }
+  .flex-block {
+    padding:0px;
+    flex-direction: column;
+  }
+  .flex-block .gradient-header,
+  .flex-block .block-promo {
+    width: 100%;
+    line-height: 1.2;
+    padding:0px 15px;
+  }
+  .name__animus {
+    padding:10px 0 35px;
+  }
+  .list__animus {
+    padding:0 0 0 25px;
+  }
+  .list__animus li:last-child {
+    margin:0px 0 10px; 
+  }
+  .flex-block.justify-content {
+    padding:20px 0 0;
+    flex-wrap:wrap;
+  }
+  .block__animus,
+  .block__animus:nth-child(2),
+  .block__animus:nth-child(3),
+  .block__animus:nth-child(4) {
+    width: 100%;
+    margin:10px 0%;
+    text-align: left;
+  }
+  .text-description_name__animus {
+    width: auto;
+  }
+  .price__vector.line_vector__name__animus {
+    width: auto;
+    bottom: 10px;
+  }
+  .block__animus {
+     transition: all 1s ease 0s;  
+     opacity: 0;
+     transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+  }
+  .block__animus.show {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+  .block__animus:nth-child(2) {
+    transition: all 0.6s ease 0.3s;  
+  }
+  .block__animus:nth-child(3) { 
+    transition: all 0.5s ease 0.5s;  
+  }
+  .block__animus:nth-child(4) {
+     transition: all 0.4s ease 0.7s;  
+  }
+
+}
+/*############################## bussinas ######################*/
+.bg-id-bussinas .price__vector svg path {
+   stroke: #da462e; 
+}
+.bg-id-bussinas .old-price-header-project {
+  right: 163px !important;
+}
+.bg-id-bussinas .position_numb svg path {
+    fill: #da462e;
+}
+.bg-id-bussinas .numb__animus_list {
+  color:#da462e
+}
+.bg-id-bussinas .block__animus:nth-child(1) {
+ width: 20%;
+}
+.bg-id-bussinas .block__animus:nth-child(2) {
+ width: 20%;
+}
+.bg-id-bussinas .block__animus:nth-child(3) {
+ width: 20%;
+}
+.bg-id-bussinas .block__animus:nth-child(4) {
+ width: 20%;
+}
+.bg-id-bussinas .block__animus:nth-child(5) {
+ width: 20%;
+}
+@media (min-width:991px) and (max-width: 1201px) { 
+  .bg-id-bussinas .old-price-header-project {
+    right: 119px !important;
+  }
+  .bg-id-bussinas .header__animus .description_name__animus {
+    font-size: 12px;
+  }
+  .bg-id-bussinas .name__animus {
+    font-size: 14px;
+  }
+  .bg-id-bussinas .block__animus {
+   width: 19% !important;
+   margin:30px 0.5% 0;
+   padding:0 5px;
+  }
+  .bg-id-bussinas .list__animus {
+    font-size: 14px;
+  }
+  .bg-id-bussinas .price__vector.line_vector__name__animus {
+     width: 80px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+   .bg-id-bussinas .block__animus:nth-child(1), 
+   .bg-id-bussinas .block__animus:nth-child(2),
+   .bg-id-bussinas .block__animus:nth-child(3),
+   .bg-id-bussinas .block__animus:nth-child(4),
+   .bg-id-bussinas .block__animus:nth-child(5) {
+     width: 46%;
+     margin: 10px 2%;
+   }
+   .bg-id-bussinas .old-price-header-project {
+         right: 86px !important;
+   }
+   
+   .bg-id-bussinas .block__animus:nth-child(5) {
+    position: relative;
+    transition: all 0.4s ease 0.9s;
+    top: -135px;
+    margin-bottom: -115px;
+   }
+}
+@media (max-width: 767px) {
+   .bg-id-bussinas .block__animus:nth-child(1), 
+   .bg-id-bussinas .block__animus:nth-child(2),
+   .bg-id-bussinas .block__animus:nth-child(3),
+   .bg-id-bussinas .block__animus:nth-child(4),
+   .bg-id-bussinas .block__animus:nth-child(5) {
+     width: 100%;
+     margin: 10px 0;
+   }
+   
+   .bg-id-bussinas .block__animus:nth-child(5) {
+    position: relative;
+    transition: all 0.4s ease 0.9s;
+    top: 0px;
+    margin-bottom: 0;
+   }
+}
+/*############################## magazine ######################*/
+.bg-id-magaz .price__vector svg path {
+   stroke: #2173af; 
+}
+.bg-id-magaz .flex-block .gradient-header {
+  font-size: 39px !important;
+}
+.bg-id-magaz .old-price-header-project {
+  right:123px !important;
+}
+.bg-id-magaz .position_numb svg path {
+    fill: #2173af;
+
+}
+.bg-id-magaz .numb__animus_list {
+  color:#2173af
+}
+.bg-id-magaz .block__animus:nth-child(1) {
+ width: 27%;
+}
+.bg-id-magaz .block__animus:nth-child(1) .text-description_name__animus {
+  top:17px;
+}
+.bg-id-magaz .name__animus {
+  min-height:110px;
+}
+.bg-id-magaz .name__animus {
+  font-size: 15px;
+}
+@media (min-width:991px) and (max-width: 1201px) { 
+  .bg-id-magaz .flex-block .gradient-header {
+      font-size: 33px !important;
+  }  
+  .bg-id-magaz .old-price-header-project {
+        right: 84px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .bg-id-magaz .flex-block .gradient-header {
+      font-size: 25px !important;
+  }  
+  
+  .bg-id-magaz .old-price-header-project {
+        right:60px !important;
+  }
+  .bg-id-magaz .block__animus:nth-child(1) {
+   width: 46%;
+  }
+  .bg-id-magaz .name__animus {
+    min-height:110px;
+  }
+  .bg-id-magaz .block__animus.show:nth-child(3) .name__animus,
+  .bg-id-magaz .block__animus.show:nth-child(4) .name__animus {
+     min-height:auto;
+  }
+}
+@media (max-width: 767px) {
+  .bg-id-magaz .flex-block .gradient-header {
+      font-size: 33px !important;
+  }  
+  .bg-id-magaz .old-price-header-project {
+        right: 84px !important;
+  }
+  .bg-id-magaz .block__animus:nth-child(1) {
+   width: 100%;
+  }
+  .bg-id-magaz .name__animus {
+    min-height:auto;
+  }
+  .bg-id-magaz .block__animus:nth-child(1) .text-description_name__animus {
+    top:8px;
+  }
+
+}
+/*############################## corporate-site ######################*/
+.bg-id-corporate .price__vector svg path {
+   stroke: #4b4f50; 
+}
+.bg-id-corporate .flex-block .gradient-header {
+  font-size: 38px !important;
+}
+.bg-id-corporate .old-price-header-project {
+  right:104px !important;
+}
+.bg-id-corporate .position_numb svg path {
+    fill: #4b4f50;
+
+}
+.bg-id-corporate .numb__animus_list {
+  color:#4b4f50
+}
+.bg-id-corporate .block__animus {
+  padding: 0 10px
+}
+.bg-id-corporate .block__animus .text-description_name__animus {
+  font-size:13px;
+}
+
+.bg-id-corporate .name__animus {
+  font-size: 15px;
+}
+@media (min-width:991px) and (max-width: 1201px) { 
+  .bg-id-corporate .block__animus {
+   width: 19% !important;
+   margin:30px 0.5% 0;
+   padding:0 5px;
+  }
+  .bg-id-corporate .flex-block .gradient-header {
+      font-size: 31px !important;
+  }  
+  .bg-id-corporate .old-price-header-project {
+        right: 84px !important;
+  }
+  .bg-id-corporate .list__animus {
+    font-size: 14px;
+    padding:0 10px 0 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .bg-id-corporate .flex-block .gradient-header {
+      font-size: 23px !important;
+  }  
+  .bg-id-corporate .old-price-header-project {
+        right:64px !important;
+  }
+   .bg-id-corporate .block__animus:nth-child(5) {
+     width: 46%;
+     margin: 10px 2%;
+     margin-bottom: -233px;
+     top: -233px;
+     position: relative;
+   }
+   .bg-id-corporate .block__animus:nth-child(3) {
+     width: 46%;
+     margin: 10px 2%;
+
+     top: -233px;
+     position: relative;
+   }
+  .bg-id-corporate .block__animus.show:nth-child(3) .name__animus,
+  .bg-id-corporate .block__animus.show:nth-child(4) .name__animus {
+     min-height:auto;
+  }
+}
+@media (max-width: 767px) {
+  .bg-id-corporate .flex-block .gradient-header {
+      font-size: 33px !important;
+  }  
+   .bg-id-corporate .block__animus:nth-child(5) {
+     width: 100%;
+     margin: 10px 0%;
+   }
+  .bg-id-corporate .old-price-header-project {
+        right: 84px !important;
+  }
+
+  .bg-id-corporate .name__animus {
+    min-height:auto;
+  }
+  .bg-id-corporate .block__animus:nth-child(1) .text-description_name__animus {
+    top:8px;
+  }
+
+}
+/*############################## bussinas ######################*/
+.bg-id-lending .price__vector svg path {
+   stroke: #4bb5cb; 
+}
+.bg-id-lending .position_numb svg path {
+    fill: #4bb5cb;
+}
+.bg-id-lending .numb__animus_list {
+  color:#4bb5cb
+}
+.bg-id-lending .numb__animus_list {
+  left:3px;
+}
+.bg-id-lending .old-price-header-project {
+    right: 171px;
+}
+.bg-id-lending .name__animus {
+  font-size: 15px;
+}
+.bg-id-lending .block__animus:nth-child(1) {
+ width: 23%;
+}
+.bg-id-lending .block__animus:nth-child(2) {
+ width: 23%;
+}
+.bg-id-lending .block__animus:nth-child(3) {
+ width: 23%;
+}
+.bg-id-lending .block__animus:nth-child(4) {
+ width: 23%;
+}
+.bg-id-lending .block__animus:nth-child(5) {
+ width: 23%;
+}
+@media (min-width:992px) and (max-width: 1201px) { 
+    .bg-id-lending .flex-block .gradient-header {
+      font-size:37px !important;
+    }
+     .bg-id-lending .old-price-header-project {
+         right:101px !important;
+   }
+ 
+  .bg-id-lending .header__animus .description_name__animus {
+    font-size: 12px;
+  }
+  .bg-id-lending .name__animus {
+    font-size: 14px;
+  }
+  .bg-id-lending .block__animus {
+   width: 23% !important;
+
+  }
+  .bg-id-lending .list__animus {
+    font-size: 14px;
+  }
+  .bg-id-lending .price__vector.line_vector__name__animus {
+     width: 80px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .bg-id-lending .flex-block .gradient-header {
+      font-size:28px !important;
+    }
+     .bg-id-lending .old-price-header-project {
+         right:76px !important;
+   }
+   .bg-id-lending .block__animus:nth-child(1), 
+   .bg-id-lending .block__animus:nth-child(2),
+   .bg-id-lending .block__animus:nth-child(3),
+   .bg-id-lending .block__animus:nth-child(4),
+   .bg-id-lending .block__animus:nth-child(5) {
+     width: 46%;
+     margin: 10px 2%;
+   }
+  
+
+}
+@media (max-width: 767px) {
+   .bg-id-lending .block__animus:nth-child(1), 
+   .bg-id-lending .block__animus:nth-child(2),
+   .bg-id-lending .block__animus:nth-child(3),
+   .bg-id-lending .block__animus:nth-child(4),
+   .bg-id-lending .block__animus:nth-child(5) {
+     width: 100%;
+     margin: 10px 0;
+   }
+
+}
+
+
+
+ /*
+ 
+.list__animus li p {
+  -webkit-transform:translateX(0); 
+  -moz-transform:translateX(0); 
+  -o-transform:translateX(0); 
+  -ms-transform:translateX(0); 
+  -ms-transform: translateY(0); 
+    transition: all 0.5s ease 0s ; 
+}
+.list__animus li:hover p {
+ -webkit-transform:translateX(10px); 
+  -moz-transform:translateX(10px); 
+  -o-transform:translateX(10px); 
+  -ms-transform:translateX(10px); 
+  -ms-transform: translateY(10px); 
+  color:#ccc;
+
+
+}
+.block__animus:nth-child(2) .list__animus li .numb__animus_list{
+  transition: all 0.5s ease 4s;  
+}
+.block__animus:nth-child(2) .list__animus li:nth-child(2) .numb__animus_list {
+  transition: all 0.5s ease 4.3s;
+}
+.block__animus:nth-child(2) .list__animus li:nth-child(3) .numb__animus_list {
+  transition: all 0.5s ease 4.5s;
+}
+.block__animus:nth-child(2) .list__animus li:nth-child(4) .numb__animus_list {
+  transition: all 0.5s ease 4.7s;
+}              
+
+.block__animus:nth-child(2) .list__animus li {
+  transition: all 1s ease 3s;
+}
+.block__animus:nth-child(2) .list__animus li:nth-child(2) {
+  transition: all 1s ease 3.3s;
+}
+.block__animus:nth-child(2) .list__animus li:nth-child(3) {
+  transition: all 1s ease 3.5s;
+}
+.block__animus:nth-child(2) .list__animus li:nth-child(4) {
+  transition: all 1s ease 3.7s;
+}
+.block__animus:nth-child(2) .text-description_name__animus{
+ transition: all 1s ease 2.3s; 
+
+}
+.block__animus:nth-child(2) .name__animus {
+   transition: all 1s ease 3.3s; 
+}
+
+
+.block__animus:nth-child(3) .list__animus li .numb__animus_list{
+  transition: all 0.5s ease 5s;  
+}
+.block__animus:nth-child(3) .list__animus li:nth-child(2) .numb__animus_list {
+  transition: all 0.5s ease 5.3s;
+}
+.block__animus:nth-child(3) .list__animus li:nth-child(3) .numb__animus_list {
+  transition: all 0.5s ease 5.5s;
+}
+.block__animus:nth-child(3) .list__animus li:nth-child(4) .numb__animus_list {
+  transition: all 0.5s ease 5.7s;
+}              
+
+.block__animus:nth-child(3) .list__animus li {
+  transition: all 1s ease 4s;
+}
+.block__animus:nth-child(3) .list__animus li:nth-child(2) {
+  transition: all 1s ease 4.3s;
+}
+.block__animus:nth-child(3) .list__animus li:nth-child(3) {
+  transition: all 1s ease 4.5s;
+}
+.block__animus:nth-child(3) .list__animus li:nth-child(4) {
+  transition: all 1s ease 4.7s;
+}
+.block__animus:nth-child(3) .text-description_name__animus{
+ transition: all 1s ease 4.3s; 
+
+}
+.block__animus:nth-child(3) .name__animus {
+   transition: all 1s ease 4.3s; 
+}
+
+.block__animus:nth-child(4) .list__animus li .numb__animus_list{
+  transition: all 0.5s ease 5s;  
+}
+.block__animus:nth-child(4) .list__animus li:nth-child(2) .numb__animus_list {
+  transition: all 0.5s ease 5.3s;
+}
+.block__animus:nth-child(4) .list__animus li:nth-child(3) .numb__animus_list {
+  transition: all 0.5s ease 5.5s;
+}
+.block__animus:nth-child(4) .list__animus li:nth-child(4) .numb__animus_list {
+  transition: all 0.5s ease 5.7s;
+}              
+
+.block__animus:nth-child(4) .list__animus li {
+  transition: all 1s ease 5s;
+}
+.block__animus:nth-child(4) .list__animus li:nth-child(2) {
+  transition: all 1s ease 5.3s;
+}
+.block__animus:nth-child(4) .list__animus li:nth-child(3) {
+  transition: all 1s ease 5.5s;
+}
+.block__animus:nth-child(4) .list__animus li:nth-child(4) {
+  transition: all 1s ease 5.7s;
+}
+.block__animus:nth-child(4) .text-description_name__animus{
+ transition: all 1s ease 5.3s; 
+
+}
+.block__animus:nth-child(4) .name__animus {
+   transition: all 1s ease 5.3s; 
+}                                                                                             */
